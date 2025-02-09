@@ -1,0 +1,4 @@
+baseURL = 'https://buccalcone.github.io/blog/'
+languageCode = 'ja'
+title = '中腸腺'
+theme = 'papermod'
