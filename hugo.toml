@@ -1,4 +1,4 @@
-baseURL = 'https://buccalcone.github.io/blog/'
+baseURL = 'https://buccalcone.github.io/'
 languageCode = 'ja'
 canonifyurls = false
 publishDir = 'public'
@@ -37,17 +37,23 @@ hideSummary = false
 showtoc = false
 tocopen = false
 
-  [params.assets]
-  favicon = 'Thinking_Face_Emoji_large.png'
-  favicon16x16 = 'Thinking_Face_Emoji_large.png'
-  favicon32x32 = 'Thinking_Face_Emoji_large.png'
-  apple_touch_icon = 'Thinking_Face_Emoji_large.png'
-  safari_pinned_tab = 'Thinking_Face_Emoji_large.png'
+#  [params.assets]
+#  favicon = 'Thinking_Face_Emoji_large.png'
+#  favicon16x16 = 'Thinking_Face_Emoji_large.png'
+#  favicon32x32 = 'Thinking_Face_Emoji_large.png'
+#  apple_touch_icon = 'Thinking_Face_Emoji_large.png'
+#  safari_pinned_tab = 'Thinking_Face_Emoji_large.png'
 
+#
+# トップページの文字やアイコンの設定
+#
   [params.label]
-  text = 'Home'
+  text = '中腸腺'
   iconHeight = 35
 
+#
+# ProfileModeの設定
+#
   [params.profileMode]
   enabled = true
   title = 'I am buccalcone'
@@ -57,13 +63,20 @@ tocopen = false
   imageHeight = 200
   imageTitle = 'my image'
 
+#
+# SNSアイコンとかリンクの設定
+#
   [[params.socialIcons]]
-  name = 'twitter'
-  url = 'https://twitter.com/okaponta_'
+  name = 'x'
+  url = 'https://x.com/buccalcone_'
 
   [[params.socialIcons]]
   name = 'github'
   url = 'https://github.com/buccalcone'
+
+  [[params.socialIcons]]
+  name = 'youtube'
+  url = 'https://youtube.com/buccalcone'
 
   [params.cover]
   hidden = true
@@ -71,38 +84,46 @@ tocopen = false
   hiddenInSingle = true
 
   [params.editPost]
-  URL = 'https://github.com/okaponta/profile/content'
+  URL = 'https://github.com/buccalcone.github.io/content'
   Text = 'Suggest Changes'
   appendFilePath = true
 
+#
+# search/ 検索機能の設定
+#
   [params.fuseOpts]
   isCaseSensitive = false
   shouldSort = true
   location = 0
-  distance = 1_000
+  distance = 1000
   threshold = 0.4
   minMatchCharLength = 0
+  limit= 10
   keys = [ 'title', 'permalink', 'summary', 'content' ]
 
-[[menu.main]]
-identifier = 'posts'
-name = 'posts'
-url = 'posts'
-weight = 5
+#
+# メニューバーの設定
+#
 
 [[menu.main]]
 identifier = 'profile'
-name = 'profile'
-url = 'fixed/profile'
+name = 'PROFILE'
+url = 'profile'
+weight = 5
+
+[[menu.main]]
+identifier = 'Blogs'
+name = 'BLOG'
+url = 'blog'
 weight = 10
 
 [[menu.main]]
-name = 'works'
-url = 'fixed/works'
+name = 'archives'
+url = '/archives'
 weight = 15
 
 [[menu.main]]
-name = 'search'
+name = 'SEARCH'
 url = 'search/'
 weight = 20
 
@@ -111,3 +132,9 @@ identifier = 'tags'
 name = 'tags'
 url = 'tags/'
 weight = 25
+
+[[menu.main]]
+identifier = 'slides'
+name = 'slides'
+url = 'https://buccalcone.github.io/slides/'
+weight = 30
