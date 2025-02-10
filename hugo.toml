@@ -1,4 +1,113 @@
 baseURL = 'https://buccalcone.github.io/blog/'
 languageCode = 'ja'
+canonifyurls = false
+publishDir = 'docs'
 title = '中腸腺'
+paginate = 5
 theme = 'papermod'
+enableEmoji = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+title = '中腸腺'
+description = 'Blog of buccalcone, a software engineer.'
+keywords = [ 'Blog', 'Portfolio', 'PaperMod' ]
+author = 'buccalcone'
+images = [ 'profile.jpg' ]
+DateFormat = 'January 2, 2006'
+defaultTheme = 'auto'
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  [params.assets]
+  favicon = 'Thinking_Face_Emoji_large.png'
+  favicon16x16 = 'Thinking_Face_Emoji_large.png'
+  favicon32x32 = 'Thinking_Face_Emoji_large.png'
+  apple_touch_icon = 'Thinking_Face_Emoji_large.png'
+  safari_pinned_tab = 'Thinking_Face_Emoji_large.png'
+
+  [params.label]
+  text = 'Home'
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = true
+  title = 'I am buccalcone'
+  subtitle = 'a.k.a. buccalcone, a software engineer.'
+  imageUrl = 'profile.jpg'
+  imageWidth = 200
+  imageHeight = 200
+  imageTitle = 'my image'
+
+  [[params.socialIcons]]
+  name = 'twitter'
+  url = 'https://twitter.com/okaponta_'
+
+  [[params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/buccalcone'
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = 'https://github.com/okaponta/profile/content'
+  Text = 'Suggest Changes'
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ 'title', 'permalink', 'summary', 'content' ]
+
+[[menu.main]]
+identifier = 'posts'
+name = 'posts'
+url = 'posts'
+weight = 5
+
+[[menu.main]]
+identifier = 'profile'
+name = 'profile'
+url = 'fixed/profile'
+weight = 10
+
+[[menu.main]]
+name = 'works'
+url = 'fixed/works'
+weight = 15
+
+[[menu.main]]
+name = 'search'
+url = 'search/'
+weight = 20
+
+[[menu.main]]
+identifier = 'tags'
+name = 'tags'
+url = 'tags/'
+weight = 25
