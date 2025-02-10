@@ -1,4 +1,140 @@
 baseURL = 'https://buccalcone.github.io/'
 languageCode = 'ja'
+canonifyurls = false
+publishDir = 'public'
 title = '中腸腺'
+paginate = 5
 theme = 'papermod'
+enableEmoji = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+title = '中腸腺'
+description = 'Blog of buccalcone, a software engineer.'
+keywords = [ 'Blog', 'Portfolio', 'PaperMod' ]
+author = 'buccalcone'
+images = [ 'profile.jpg' ]
+DateFormat = 'January 2, 2006'
+defaultTheme = 'auto'
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+#  [params.assets]
+#  favicon = 'Thinking_Face_Emoji_large.png'
+#  favicon16x16 = 'Thinking_Face_Emoji_large.png'
+#  favicon32x32 = 'Thinking_Face_Emoji_large.png'
+#  apple_touch_icon = 'Thinking_Face_Emoji_large.png'
+#  safari_pinned_tab = 'Thinking_Face_Emoji_large.png'
+
+#
+# トップページの文字やアイコンの設定
+#
+  [params.label]
+  text = '中腸腺'
+  iconHeight = 35
+
+#
+# ProfileModeの設定
+#
+  [params.profileMode]
+  enabled = true
+  title = 'I am buccalcone'
+  subtitle = 'a.k.a. buccalcone, a software engineer.'
+  imageUrl = 'profile.jpg'
+  imageWidth = 200
+  imageHeight = 200
+  imageTitle = 'my image'
+
+#
+# SNSアイコンとかリンクの設定
+#
+  [[params.socialIcons]]
+  name = 'x'
+  url = 'https://x.com/buccalcone_'
+
+  [[params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/buccalcone'
+
+  [[params.socialIcons]]
+  name = 'youtube'
+  url = 'https://youtube.com/buccalcone'
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = 'https://github.com/buccalcone.github.io/content'
+  Text = 'Suggest Changes'
+  appendFilePath = true
+
+#
+# search/ 検索機能の設定
+#
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  limit= 10
+  keys = [ 'title', 'permalink', 'summary', 'content' ]
+
+#
+# メニューバーの設定
+#
+
+[[menu.main]]
+identifier = 'profile'
+name = 'PROFILE'
+url = 'profile'
+weight = 5
+
+[[menu.main]]
+identifier = 'Blogs'
+name = 'BLOG'
+url = 'blog'
+weight = 10
+
+[[menu.main]]
+name = 'archives'
+url = '/archives'
+weight = 15
+
+[[menu.main]]
+name = 'SEARCH'
+url = 'search/'
+weight = 20
+
+[[menu.main]]
+identifier = 'tags'
+name = 'tags'
+url = 'tags/'
+weight = 25
+
+[[menu.main]]
+identifier = 'slides'
+name = 'slides'
+url = 'https://buccalcone.github.io/slides/'
+weight = 30
