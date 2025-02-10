@@ -82,6 +82,10 @@ tocopen = false
 #  url = 'https://youtube.com/buccalcone'
 
   [[params.socialIcons]]
+  name = 'note'
+  # url = 'https://buccalcone.github.io/index.xml'
+
+  [[params.socialIcons]]
   name = 'rss'
   url = 'https://buccalcone.github.io/index.xml'
 
