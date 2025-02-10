@@ -68,15 +68,15 @@ tocopen = false
 #
   [[params.socialIcons]]
   name = 'x'
-  url = 'https://x.com/buccalcone_'
+#  url = 'https://x.com/buccalcone_'
 
   [[params.socialIcons]]
   name = 'github'
-  url = 'https://github.com/buccalcone'
+#  url = 'https://github.com/buccalcone'
 
   [[params.socialIcons]]
   name = 'youtube'
-  url = 'https://youtube.com/buccalcone'
+#  url = 'https://youtube.com/buccalcone'
 
   [params.cover]
   hidden = true
