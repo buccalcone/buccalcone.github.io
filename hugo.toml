@@ -1,7 +1,7 @@
 baseURL = 'https://buccalcone.github.io/blog/'
 languageCode = 'ja'
 canonifyurls = false
-publishDir = 'docs'
+publishDir = 'public'
 title = '中腸腺'
 paginate = 5
 theme = 'papermod'
