@@ -86,6 +86,10 @@ tocopen = false
   # url = 'https://buccalcone.github.io/index.xml'
 
   [[params.socialIcons]]
+  name = 'qiita'
+  # url = 'https://buccalcone.github.io/index.xml'
+  
+  [[params.socialIcons]]
   name = 'rss'
   url = 'https://buccalcone.github.io/index.xml'
 
