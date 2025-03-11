@@ -61,11 +61,15 @@ tocopen = false
   enabled = true
   title = 'I am buccalcone'
   subtitle = 'a.k.a. buccalcone, a software engineer.'
-  imageUrl = 'profile.jpg'
+  imageUrl = 'buccalcone.jpg'
   imageWidth = 200
   imageHeight = 200
   imageTitle = 'my image'
 
+  qrImageUrl = 'qr-code.jpg'
+  qrimageWidth = 200
+  qrimageHeight = 200
+  qrimageTitle = 'qr code'
 #
 # SNSアイコンとかリンクの設定
 #
