@@ -60,7 +60,7 @@ tocopen = false
   [params.profileMode]
   enabled = true
   title = 'I am buccalcone'
-  subtitle = 'a.k.a. buccalcone, a software engineer.'
+  subtitle = 'a.k.a. buccalcone, interest in Computer Architecture.'
   imageUrl = 'buccalcone.jpg'
   imageWidth = 200
   imageHeight = 200
