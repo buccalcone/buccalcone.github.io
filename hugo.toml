@@ -66,10 +66,12 @@ tocopen = false
   imageHeight = 200
   imageTitle = 'my image'
 
-  qrImageUrl = 'qr-code.jpg'
-  qrimageWidth = 200
-  qrimageHeight = 200
-  qrimageTitle = 'qr code'
+# QRCode 貼り付ける用
+#  qrImageUrl = 'qr-code.jpg'
+#  qrimageWidth = 200
+#  qrimageHeight = 200
+#  qrimageTitle = 'qr code'
+
 #
 # SNSアイコンとかリンクの設定
 #
