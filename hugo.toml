@@ -20,7 +20,7 @@ home = [ "HTML", "RSS", "JSON" ]
 
 [params]
 title = '中腸腺'
-description = 'Blog of buccalcone, a software engineer.'
+description = 'Blog of buccalcone'
 keywords = [ 'Blog', 'Portfolio', 'PaperMod' ]
 author = 'buccalcone'
 images = [ 'profile.jpg' ]
@@ -59,19 +59,26 @@ tocopen = false
 #
   [params.profileMode]
   enabled = true
-  title = 'I am buccalcone'
+  title = 'buccalcone'
   subtitle = 'Interest in Computer Architecture.'
   imageUrl = 'buccalcone.png'
-  imageWidth = 200
-  imageHeight = 200
+  imageWidth = 150
+  imageHeight = 150
   imageTitle = 'my image'
 
+#  subimageUrl = 'buccalcone.png'
+#  subimageWidth = 100
+#  subimageHeight = 100
+#  subimageTitle = 'my image'
+
 # QRCode 貼り付ける用
-#  qrImageUrl = 'qr-code.jpg'
-#  qrimageWidth = 200
-#  qrimageHeight = 200
+#  qrImageUrl = 'qr-code.png'
+#  qrimageWidth = 150
+#  qrimageHeight = 150
 #  qrimageTitle = 'qr code'
 
+  [params.profileMode.qrcode]
+    enabled = true
 #
 # SNSアイコンとかリンクの設定
 #
