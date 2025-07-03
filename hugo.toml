@@ -100,7 +100,7 @@ tocopen = false
 
   [[params.socialIcons]]
   name = 'qiita'
-  # url = 'https://buccalcone.github.io/index.xml'
+  url = 'https://qiita.com/buccalcone'
   
   [[params.socialIcons]]
   name = 'rss'
