@@ -92,7 +92,7 @@ tocopen = false
 
   [[params.socialIcons]]
   name = 'youtube'
-#  url = 'https://youtube.com/buccalcone'
+  url = https://www.youtube.com/@bukkalcone
 
   [[params.socialIcons]]
   name = 'note'
