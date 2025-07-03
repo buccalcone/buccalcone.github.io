@@ -96,7 +96,7 @@ tocopen = false
 
   [[params.socialIcons]]
   name = 'note'
-  # url = 'https://buccalcone.github.io/index.xml'
+  url = 'https://note.com/buccalcone'
 
   [[params.socialIcons]]
   name = 'qiita'
