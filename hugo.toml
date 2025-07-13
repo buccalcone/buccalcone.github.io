@@ -29,6 +29,7 @@ defaultTheme = 'auto'
 disableThemeToggle = false
 ShowReadingTime = true
 ShowShareButtons = true
+ShareButtons = ['x', 'reddit', 'facebook']
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
